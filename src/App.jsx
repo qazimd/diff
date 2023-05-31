@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css";
-
 import React, { useState } from "react";
 import diff_match_patch from "diff-match-patch";
 
