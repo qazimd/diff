@@ -38,14 +38,7 @@ function App() {
   return (
     <div className="form-container">
       <h2>Text Compare</h2>
-      {difference && (
-        <div className="difference">
-          <p>🔴- indicates deletion 🟢- indicates addition</p>
-          <p>These are the differences:</p>
-          {x}
-        </div>
-      )}
-
+    
       <div className="text-area">
         <div>
           <label>Original Text</label>
@@ -62,9 +55,15 @@ function App() {
           Find Difference
         </button>
       </div>
+      {difference && (
+        <div className="difference">
+          <p>🔴- indicates deletion 🟢- indicates addition</p>
+          <p>These are the differences:</p>
+          {x}
+        </div>
+      )}
     </div>
   );
 }
 
 export default App;
-// test
