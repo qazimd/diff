@@ -29,15 +29,14 @@ label {
 }
 
 .text-area div {
-  display: block;
+  display: flex;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 textarea {
-  width: 100%;
-  height: 300px;
-
-  resize: both;
+  min-width: 500px;
+  min-height: 300px;
 }
 
 
